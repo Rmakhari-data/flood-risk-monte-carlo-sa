@@ -37,8 +37,15 @@ This allows risk analysts to estimate:
 * Extreme loss scenarios
 * Probability of large catastrophic losses
 
+  ## Simulation Output
+
+Below is the simulated distribution of annual flood losses:
+
+![Flood Loss Distribution](flood_loss_distribution.png)
+
 ## Author
 
 Rotshidzwa Makhari
+
 
 
