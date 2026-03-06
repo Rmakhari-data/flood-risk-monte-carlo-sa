@@ -25,4 +25,11 @@ Flood risk demonstrates a **low-frequency, high-severity pattern**, where most y
 - NumPy
 - Pandas
 - Matplotlib
+
 - Jupyter Notebook
+
+- ## Example Output
+
+Below is the simulated distribution of annual flood losses:
+
+![Flood Loss Distribution](flood_loss_distribution.png)
