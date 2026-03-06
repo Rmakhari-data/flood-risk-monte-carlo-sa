@@ -1,33 +1,44 @@
 # Flood Risk Monte Carlo Simulation (South Africa)
 
 ## Project Overview
-This project models the financial impact of flood events using Monte Carlo simulation.  
-The simulation generates 10,000 possible years of flood outcomes to estimate potential insurance losses.
 
-## Methodology
-The model assumes:
-- Flood probability: 30% per year
-- Three flood severity levels: Minor, Moderate, Severe
-- Randomized loss ranges for each severity level
+This project simulates annual flood losses using Monte Carlo simulation.
+The goal is to estimate expected flood losses and extreme risk scenarios for an insurance portfolio.
 
-Monte Carlo simulation is used to estimate the distribution of possible annual losses.
+Monte Carlo simulation is widely used in risk modeling because it generates thousands of possible outcomes using random sampling to estimate uncertainty and risk exposure.
 
-## Risk Metrics
+## Objectives
 
-Expected Annual Loss (EAL): ~R5.94 million  
-95% Value at Risk (VaR): ~R31.78 million  
-Tail Value at Risk (TVaR): ~R69.37 million  
-
-## Example Output
-
-![Flood Loss Distribution](flood_loss_distribution.png)
+* Simulate flood events using probability distributions
+* Estimate expected annual loss (EAL)
+* Calculate extreme risk measures such as Value at Risk (VaR)
+* Visualize the distribution of simulated losses
 
 ## Tools Used
-- Python
-- NumPy
-- Matplotlib
-- Jupyter Notebook
+
+* Python
+* NumPy
+* Matplotlib
+* Jupyter Notebook
+
+## Methodology
+
+1. Define probability of flood occurrence
+2. Generate random loss values using Monte Carlo simulation
+3. Run thousands of simulations
+4. Analyze expected losses and tail risk
+
+## Results
+
+The simulation produces a distribution of possible annual losses.
+This allows risk analysts to estimate:
+
+* Expected Annual Loss (EAL)
+* Extreme loss scenarios
+* Probability of large catastrophic losses
 
 ## Author
+
 Rotshidzwa Makhari
-BSc Mathematics & Statistics Student
+
+
