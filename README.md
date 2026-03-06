@@ -37,15 +37,32 @@ This allows risk analysts to estimate:
 * Extreme loss scenarios
 * Probability of large catastrophic losses
 
+  ## Key Results
+
+- Expected Annual Loss (EAL): ~R5.9 million
+- 99% Value at Risk (VaR): ~R31.7 million
+- Probability of extreme flood losses: ~2.6%
+
+These results highlight the potential impact of rare but severe flood events on insurance portfolios.
+
   ## Simulation Output
 
 Below is the simulated distribution of annual flood losses:
 
 ![Flood Loss Distribution](flood_loss_distribution.png)
 
+## Skills Demonstrated
+
+- Monte Carlo Simulation
+- Risk Modelling
+- Python (NumPy, Matplotlib)
+- Data Analysis
+- Probability & Statistics
+
 ## Author
 
 Rotshidzwa Makhari
+
 
 
 
